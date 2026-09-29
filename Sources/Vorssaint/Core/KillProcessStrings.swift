@@ -48,6 +48,7 @@ extension FeatureStrings {
         case .ru: return .ru
         case .es: return .es
         case .sk: return .sk
+        case .pl: return .pl
         case .de: return .de
         case .fr: return .fr
         case .it: return .it
@@ -258,6 +259,39 @@ extension KillProcessFeatureStrings {
         killFailedTitle: "Proces sa nepodarilo ukončiť",
         killFailedMessage: "Proces už možno skončil alebo vyžaduje ďalšie oprávnenia.",
         adminPromptFormat: "Vorssaint potrebuje prístup správcu na ukončenie „%@“."
+    )
+
+    static let pl = KillProcessFeatureStrings(
+        pageTitle: "Zabij proces",
+        browseSubtitle: "Przeglądaj i zabij",
+        hubDescription: "Przeszukuj działające procesy i wymuś zakończenie, uruchom ponownie lub zabij drzewa procesów",
+        searchPlaceholder: "Filtruj po nazwie",
+        columnProcess: "Proces",
+        columnCPU: "CPU",
+        columnMemory: "Pamięć",
+        columnPID: "PID",
+        groupToggle: "Grupuj powiązane procesy",
+        groupCaption: "Grupuje procesy pomocnicze pod aplikacją, która za nie odpowiada.",
+        commandBarToggle: "Pokaż w pasku poleceń",
+        commandBarCaption: "Dodaje działające procesy do paska poleceń, dzięki czemu można je znaleźć i zabić bez otwierania Ustawień.",
+        refreshTooltip: "Odśwież",
+        pidLabelFormat: "PID %d",
+        processCountFormat: "Procesy: %d",
+        killButton: "Zabij",
+        forceKillButton: "Wymuś zakończenie",
+        killAllFormat: "Zabij wszystkie „%@”",
+        killTreeButton: "Zabij drzewo procesów",
+        restartButton: "Uruchom ponownie",
+        copyPID: "Skopiuj PID",
+        copyPath: "Skopiuj ścieżkę",
+        emptyStateTitle: "Nie znaleziono procesów",
+        confirmKillFormat: "Zabić %@?",
+        confirmForceKillFormat: "Wymusić zakończenie %@?",
+        confirmKillAllFormat: "Zabić wszystkie procesy „%@”?",
+        confirmKillTreeFormat: "Zabić %@ i wszystkie jego procesy potomne?",
+        killFailedTitle: "Nie można zabić procesu",
+        killFailedMessage: "Proces mógł już zostać zakończony lub wymaga dodatkowych uprawnień.",
+        adminPromptFormat: "Vorssaint wymaga uprawnień administratora, aby zakończyć „%@”."
     )
 
     static let de = KillProcessFeatureStrings(

@@ -26,6 +26,7 @@ enum AppLanguage: String, CaseIterable, Identifiable {
     case ru = "ru"
     case es = "es"
     case sk = "sk"
+    case pl = "pl"
     case de = "de"
     case fr = "fr"
     case it = "it"
@@ -45,7 +46,7 @@ enum AppLanguage: String, CaseIterable, Identifiable {
     var countAgreement: CountAgreement {
         switch self {
         case .ru, .uk: return .byLastDigits
-        case .sk: return .byWholeNumber
+        case .sk, .pl: return .byWholeNumber
         default: return .oneAndMany
         }
     }
@@ -59,6 +60,7 @@ enum AppLanguage: String, CaseIterable, Identifiable {
         case .ru: return "Русский"
         case .es: return "Español"
         case .sk: return "Slovenčina"
+        case .pl: return "Polski"
         case .de: return "Deutsch"
         case .fr: return "Français"
         case .it: return "Italiano"
@@ -95,7 +97,7 @@ enum AppLanguage: String, CaseIterable, Identifiable {
         }
 
         let matches: [(String, AppLanguage)] = [
-            ("pt", .ptBR), ("tr", .tr), ("ru", .ru), ("es", .es), ("sk", .sk), ("de", .de),
+            ("pt", .ptBR), ("tr", .tr), ("ru", .ru), ("es", .es), ("sk", .sk), ("pl", .pl), ("de", .de),
             ("fr", .fr), ("it", .it), ("ja", .ja), ("ko", .ko), ("uk", .uk), ("zh", .zhHans),
         ]
         for (prefix, language) in matches where preferred.hasPrefix(prefix) { return language }
@@ -135,6 +137,7 @@ extension Strings {
         case .ru: return .ru
         case .es: return .es
         case .sk: return .sk
+        case .pl: return .pl
         case .de: return .de
         case .fr: return .fr
         case .it: return .it
