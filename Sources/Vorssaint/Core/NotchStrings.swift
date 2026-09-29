@@ -518,7 +518,7 @@ extension NotchStrings {
         spacious: "Przestronna",
         hoverExpand: "Rozwiń w pełni po najechaniu",
         shelfWindow: "Otwórz Półkę na pliki w Dynamic Island",
-        dragReveal: "Pokaż cel upuszczania podczas przeciąganania",
+        dragReveal: "Pokaż cel upuszczania podczas przeciągania",
         captureControls: "Pokaż narzędzia zrzutów ekranu w Dynamic Island",
         quickPanel: "Otwórz szybki panel w Dynamic Island",
         appPanel: "Otwórz panel aplikacji w Dynamic Island",

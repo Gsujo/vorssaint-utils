@@ -155,7 +155,7 @@ extension MouseExceptionStrings {
         captionNavigation: "Boczne przyciski nadal robią to, co te aplikacje już z nimi robią.",
         captionButtonShortcuts: "Twoje dodatkowe przyciski myszy pozostają ciche w tych aplikacjach, a naciśnięcie dociera do nich zamiast tego.",
         captionMiddleClick: "Kliknięcie trzema palcami pozostaje normalnym kliknięciem w tych aplikacjach.",
-        captionFocusFollowsMouse: "Najechanie kursorem nie zmienia ostrości ani nie przenosi na wierzch okna w tych aplikacjach.",
+        captionFocusFollowsMouse: "Najechanie kursorem nie zmienia fokusu ani nie przenosi na wierzch okna w tych aplikacjach.",
         captionSuperKey: "Podczas gdy którakolwiek z tych aplikacji jest otwarta, nawet w tle, Klawisz Super zostaje wstrzymany, a wybrany klawisz działa normalnie.",
         pausedSuperKey: "Wstrzymane podczas gdy wybrana aplikacja jest otwarta"
     )

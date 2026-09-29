@@ -121,7 +121,7 @@ extension KeepAwakeDisplaySleepStrings {
 
     static let pl = KeepAwakeDisplaySleepStrings(
         allowDisplaySleep: "Pozwól na uśpienie ekranu",
-        allowDisplaySleepCaption: "Utrzymuje Maca w stanie czuwania, podczas gdy ekran wygasza się zgodnie z normalnym timerem usypiania."
+        allowDisplaySleepCaption: "Zapobiega uśpieniu Maca, podczas gdy ekran wygasza się zgodnie ze standardowym czasem usypiania."
     )
 
     static let de = KeepAwakeDisplaySleepStrings(
@@ -315,7 +315,7 @@ extension KeepAwakeAutomationStrings {
         runningAppsListTitle: "Wybrane aplikacje",
         runningAppsAddButton: "Dodaj aplikację…",
         runningAppsRemoveButton: "Usuń",
-        runningAppsListCaption: "Utrzymywanie czuwania (Keep Awake) działa, dopóki otwarta jest jakakolwiek z tych aplikacji, nawet w tle.",
+        runningAppsListCaption: "Zapobieganie usypianiu działa, dopóki otwarta jest jakakolwiek z tych aplikacji, nawet w tle.",
         automationActive: "Aktywne, ponieważ spełniony jest automatyczny warunek",
         pauseWhenLockedToggle: "Wstrzymaj, gdy Mac jest zablokowany",
         pauseWhenLockedCaption: "Przestrzega normalnych reguł usypiania podczas blokady i wznawia pozostałą sesję po odblokowaniu.",

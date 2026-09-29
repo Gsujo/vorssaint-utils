@@ -355,6 +355,12 @@ struct ShelfTooltipStrings {
             case 2, 3, 4: return .few
             default: return .many
             }
+        case .polish:
+            if magnitude == 1 { return .one }
+            let mod100 = magnitude % 100
+            if (12...14).contains(mod100) { return .many }
+            let mod10 = magnitude % 10
+            return (2...4).contains(mod10) ? .few : .many
         }
     }
 }

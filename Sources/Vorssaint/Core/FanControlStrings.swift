@@ -352,12 +352,12 @@ extension FanControlFeatureStrings {
     static let pl = FanControlFeatureStrings(
         title: "Sterowanie wentylatorami",
         hubDescription: "Steruj wentylatorami ręcznie lub za pomocą krzywych temperatury, widząc aktualne i docelowe obroty",
-        showInPanel: "Pokaż Sterowanie wentylatorami na pasku",
+        showInPanel: "Pokaż Sterowanie wentylatorami w panelu",
         settingsCaption: "Dodaje ręczne prędkości wentylatorów i krzywe temperatury do panelu paska menu.",
         fanNameFormat: "Wentylator %d",
         rpmFormat: "%d obr./min",
         allowControl: "Zezwalaj na sterowanie wentylatorami",
-        approvalCaption: "Zezwól aplikacji Vorssaint w oknie Logowanie na używanie chronionego kontrolera wentylatorów.",
+        approvalCaption: "Zezwól aplikacji Vorssaint w sekcji Rzeczy i rozszerzenia otwierane podczas logowania, aby używać chronionego kontrolera wentylatorów.",
         openSettings: "Otwórz Ustawienia systemowe",
         noFans: "Ten Mac nie ma wentylatora, którym można sterować.",
         unsupported: "Sterowanie wentylatorami nie jest dostępne na tym Macu.",
@@ -371,8 +371,8 @@ extension FanControlFeatureStrings {
         customCurve: "Krzywa",
         mode: "Tryb sterowania",
         coolingIntensity: "Prędkość wentylatora",
-        currentRPMFormat: "%d obr./min",
-        targetRPMFormat: "%d obr./min",
+        currentRPMFormat: "Aktualnie: %d obr./min",
+        targetRPMFormat: "Docelowo: %d obr./min",
         applyManual: "Zastosuj sterowanie ręczne",
         applyCurve: "Zastosuj krzywą wentylatora",
         returnToSystem: "Użyj sterowania systemowego",
@@ -391,7 +391,7 @@ extension FanControlFeatureStrings {
         averageCPU: "Średnia CPU",
         hottestCPU: "Najcieplejszy CPU",
         hottestGPU: "Najcieplejszy GPU",
-        helperUnavailable: "Chroniony kontroler wentylatorów jest niedostępny. Zezwól aplikacji Vorssaint w oknie Logowanie, a następnie spróbuj ponownie.",
+        helperUnavailable: "Chroniony kontroler wentylatorów jest niedostępny. Zezwól aplikacji Vorssaint w sekcji Rzeczy i rozszerzenia otwierane podczas logowania, a następnie spróbuj ponownie.",
         resumeAfterRestart: "Wznów po ponownym uruchomieniu lub uśpieniu"
     )
 

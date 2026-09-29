@@ -190,7 +190,7 @@ extension FeatureStrings {
             accessoryDescription: "Pokaż podłączone akcesoria i ostrzeż raz, gdy poziom ich baterii spadnie do 20%.",
             connected: "Podłączono",
             lowBattery: "Niski poziom baterii",
-            keepAwakeActivity: "Pokaż „Keep Awake” (Utrzymuj czuwanie) w zamkniętej wyspie",
+            keepAwakeActivity: "Pokaż „Zapobieganie usypianiu” w zamkniętej wyspie",
             keepAwakeActivityHint: "Działająca sesja pojawia się obok kamery z czasem, jaki jej pozostał, lub ∞, jeśli nie ma końca."
         )
         case .de: return NotchActivityStrings(

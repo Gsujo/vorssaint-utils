@@ -15,6 +15,10 @@ enum CountAgreement {
     /// and only two through four the middle one, so 21 and 22 read
     /// "21 súborov" and "22 súborov" the same way 25 does.
     case byWholeNumber
+    /// Polish: 1 takes the first form; numbers ending in 2 through 4 (except
+    /// 12 through 14) take the middle form; all others (including 21 and 112)
+    /// take the last form.
+    case polish
 }
 
 /// Languages the interface can use. The first launch defaults to the system
@@ -46,7 +50,8 @@ enum AppLanguage: String, CaseIterable, Identifiable {
     var countAgreement: CountAgreement {
         switch self {
         case .ru, .uk: return .byLastDigits
-        case .sk, .pl: return .byWholeNumber
+        case .sk: return .byWholeNumber
+        case .pl: return .polish
         default: return .oneAndMany
         }
     }

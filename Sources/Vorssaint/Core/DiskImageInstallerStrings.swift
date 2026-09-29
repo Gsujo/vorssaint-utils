@@ -191,24 +191,24 @@ extension DiskImageInstallerStrings {
     static let pl = DiskImageInstallerStrings(
         title: "Instalator obrazów dysków",
         hubDescription: "Zainstaluj pojedynczą aplikację z obrazu dysku i usuń pobrany plik",
-        useUserApplications: "Zainstaluj w katalogu Aplikacje w swoim folderze domowym",
-        applicationsFolder: "katalog Aplikacje",
-        userApplicationsFolder: "katalog Aplikacje w swoim folderze domowym",
+        useUserApplications: "Zainstaluj w katalogu Aplikacje w swoim katalogu domowym",
+        applicationsFolder: "katalogu Aplikacje",
+        userApplicationsFolder: "katalogu Aplikacje w swoim katalogu domowym",
         promptTitle: "Zainstalować tę aplikację?",
-        promptBodyFormat: "%@ zostanie skopiowana do %@, a obraz dysku – wysunięty.",
+        promptBodyFormat: "Aplikacja %@ zostanie skopiowana do %@, a obraz dysku – wysunięty.",
         installButton: "Zainstaluj",
         installedTitle: "Aplikacja zainstalowana",
-        installedBodyFormat: "%@ jest gotowa w %@. Obraz dysku został wysunięty, a pobrany plik przeniesiony do Kosza.",
-        installedKeepingMountBodyFormat: "%@ jest zainstalowana w %@, ale nie można było wysunąć obrazu dysku. Pobrany plik został zachowany.",
-        installedKeepingDownloadBodyFormat: "%@ jest zainstalowana w %@, a obraz dysku został wysunięty, ale pobranego pliku nie można było przenieść do Kosza.",
+        installedBodyFormat: "Aplikacja %@ jest gotowa w %@. Obraz dysku został wysunięty, a pobrany plik przeniesiony do Kosza.",
+        installedKeepingMountBodyFormat: "Aplikacja %@ została zainstalowana w %@, ale nie udało się wysunąć obrazu dysku. Pobrany plik został zachowany.",
+        installedKeepingDownloadBodyFormat: "Aplikacja %@ została zainstalowana w %@, a obraz dysku został wysunięty, ale pobranego pliku nie udało się przenieść do Kosza.",
         failedTitle: "Nie można zainstalować",
         failedBody: "Nic nie zostało zmienione. Nadal możesz przeciągnąć aplikację do katalogu Aplikacje.",
         verificationFailedBody: "Ten Mac nie mógł zweryfikować aplikacji, więc nic nie zostało zainstalowane.",
-        alreadyInstalledBodyFormat: "%@ jest już w katalogu Aplikacje.",
+        alreadyInstalledBodyFormat: "Aplikacja %@ znajduje się już w katalogu Aplikacje.",
         trashDownloadOption: "Przenieś pobrany plik do Kosza",
         revealAppOption: "Pokaż zainstalowaną aplikację w Finderze",
-        installedKeptDownloadBodyFormat: "%@ jest gotowa w %@. Obraz dysku został wysunięty, a pobrany plik zachowany.",
-        installingFormat: "Instalowanie %@…"
+        installedKeptDownloadBodyFormat: "Aplikacja %@ jest gotowa w %@. Obraz dysku został wysunięty, a pobrany plik zachowany.",
+        installingFormat: "Instalowanie aplikacji %@…"
     )
 
     static let de = DiskImageInstallerStrings(

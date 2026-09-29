@@ -771,7 +771,7 @@ extension RadialMenuFeatureStrings {
         urlPlaceholder: "example.com",
         urlInvalid: "Wprowadź prawidłowe łącze.",
         toolLabel: "Narzędzie",
-        mediaLabel: "Control",
+        mediaLabel: "Sterowanie",
         mediaPlayPause: "Odtwarzaj lub pauzuj",
         mediaPrevious: "Poprzedni utwór",
         mediaNext: "Następny utwór",

@@ -815,6 +815,13 @@ enum MetricsFeatureTests {
                     && !strings.menuBarLabel.isEmpty && !strings.oneConnected.isEmpty,
                          "connected device strings are complete for \(language.rawValue)")
         }
+        let plConnected = FeatureStrings.connectedDevices(.pl)
+        suite.expect(plConnected.formattedCount(1) == "1 podłączone urządzenie",
+                     "Polish connected devices count for 1")
+        suite.expect(plConnected.formattedCount(2) == "Podłączone urządzenia: 2",
+                     "Polish connected devices count for 2")
+        suite.expect(plConnected.formattedCount(5) == "Podłączone urządzenia: 5",
+                     "Polish connected devices count for 5")
 
         MetricFormat.locale = originalLocale
     }
