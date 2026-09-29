@@ -388,7 +388,7 @@ extension ScratchpadFeatureStrings {
         saveName: "Zachowaj",
         cancel: "Anuluj",
         deletePadMessageFormat: "Usunąć „%@” i całą jego zawartość?",
-        padLimitFormat: "Możesz mieć maksymalnie %d brudnopisów",
+        padLimitFormat: "Maksymalna liczba brudnopisów: %d",
         previewFormatting: "Pokaż formatowanie",
         editText: "Edytuj tekst",
         markBold: "Pogrubienie",

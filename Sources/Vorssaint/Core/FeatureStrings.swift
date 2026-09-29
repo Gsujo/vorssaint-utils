@@ -3008,8 +3008,8 @@ struct MonitorAlertFeatureStrings {
         cooldown60: "1 godzina",
         cpuTitle: "Wysokie użycie CPU",
         cpuBodyFormat: "Użycie CPU utrzymywało się powyżej %d%% przez kilka sekund.",
-        cpuTemperatureTitle: "Gorące CPU",
-        cpuTemperatureBodyFormat: "CPU osiągnęło %@.",
+        cpuTemperatureTitle: "Wysoka temperatura procesora",
+        cpuTemperatureBodyFormat: "Temperatura procesora osiągnęła %@.",
         memoryTitle: "Krytyczna pamięć",
         memoryBody: "Zużycie pamięci osiągnęło poziom krytyczny.",
         diskTitle: "Mało miejsca na dysku",
@@ -3019,7 +3019,7 @@ struct MonitorAlertFeatureStrings {
         batteryTemperature: "Wysoka temperatura baterii",
         batteryTemperatureThreshold: "Temperatura powyżej",
         batteryTemperatureTitle: "Gorąca bateria",
-        batteryTemperatureBodyFormat: "Bateria osiągnęła %@."
+        batteryTemperatureBodyFormat: "Temperatura baterii osiągnęła %@."
     )
 
     static let de = MonitorAlertFeatureStrings(
