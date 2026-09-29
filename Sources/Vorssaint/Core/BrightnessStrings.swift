@@ -338,7 +338,7 @@ extension BrightnessFeatureStrings {
         softwareDimming: "Przyciemnij obraz",
         extendedDimming: "Dodatkowe przyciemnianie",
         islandPromptTitle: "Pokazywać jasność w funkcji Dynamic Island?",
-        islandPromptMessage: "Funkcja Dynamic Island pokazuje zmiany jasności tylko wtedy, gdy włączona jest opcja „Steruj wyświetlaczami” w ustawieniach.",
+        islandPromptMessage: "Dynamic Island pokazuje zmiany jasności tylko wtedy, gdy w ustawieniach Wyświetlacze włączona jest opcja „Steruj wyświetlaczami”.",
         islandPromptKeepOff: "Pozostaw wyłączone"
     )
 

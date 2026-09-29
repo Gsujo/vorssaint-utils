@@ -110,7 +110,7 @@ private extension ConnectedDevicesFeatureStrings {
         unnamedDevice: "Urządzenie USB",
         menuBarLabel: "USB",
         oneConnected: "1 podłączone urządzenie",
-        devicesConnectedFormat: "%d podłączonych urządzeń"
+        devicesConnectedFormat: "Podłączone urządzenia: %d"
     )
 
     static let de = ConnectedDevicesFeatureStrings(

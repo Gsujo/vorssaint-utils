@@ -499,7 +499,7 @@ extension MediaImageConverterStrings {
         copySummary: "Skopiuj podsumowanie",
         savedBytesFormat: "Zaoszczędzono %@",
         grewBytesFormat: "Większe o %@",
-        batchSavedFormat: "Zapisano %d obrazów",
+        batchSavedFormat: "Zapisane obrazy: %d",
         batchPartialFormat: "Zapisano %d, nie powiodło się %d",
         batchSummaryHeaderFormat: "Zapisano %d, nie powiodło się %d",
         batchSummaryItemFormat: "%@ -> %@"

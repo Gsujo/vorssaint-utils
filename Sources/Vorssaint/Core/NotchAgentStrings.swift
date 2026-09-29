@@ -666,7 +666,7 @@ extension NotchAgentStrings {
         streak: "Dni z rzędu",
         activeDays: "Aktywne dni",
         busiestDay: "Najbardziej pracowity dzień",
-        finishedFormat: "%@ ukończonych",
+        finishedFormat: "%@ zakończył pracę",
         limitRenewed: "Limit odnowiony",
         budgetTitle: "Dzienny budżet",
         leftFormat: "Pozostało %@",

@@ -69,17 +69,17 @@ extension PortManagerFeatureStrings {
     static let pl = PortManagerFeatureStrings(
         title: "Menedżer portów",
         filter: "Filtruj według portu, procesu lub PID",
-        openFormat: "%d otwarte",
+        openFormat: "Otwarte: %d",
         empty: "Nie znaleziono nasłuchujących portów",
         emptyHint: "Spróbuj odświeżyć lub zmienić kryteria wyszukiwania.",
         listeningCaption: "Twoje nasłuchujące porty",
-        kill: "Zabij",
-        forceKill: "Wymuś zabicie",
+        kill: "Zakończ",
+        forceKill: "Wymuś zakończenie",
         loadFailed: "Nie udało się odczytać nasłuchujących portów. Spróbuj odświeżyć.",
         refresh: "Odśwież",
         terminateFormat: "Zakończyć %@?",
         terminateMessageFormat: "To zamyka port %d poprzez zakończenie PID %d.",
-        hubDescription: "Przeglądaj aktywne porty nasłuchujące i, przy zainstalowanym procesie Kill, zamykaj procesy z nich korzystające",
+        hubDescription: "Przeglądaj aktywne porty nasłuchujące i – po zainstalowaniu funkcji Zakończ proces – kończ procesy, które z nich korzystają",
         allInterfaces: "Wszystkie interfejsy",
         allInterfacesHelp: "Nasłuchiwanie na każdym interfejsie sieciowym, więc inne urządzenia w sieci mogą się połączyć."
     )
