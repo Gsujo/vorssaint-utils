@@ -823,6 +823,24 @@ enum MetricsFeatureTests {
         suite.expect(plConnected.formattedCount(5) == "Podłączone urządzenia: 5",
                      "Polish connected devices count for 5")
 
+        let plFallback = "Cykle"
+        suite.expect(MetricFormat.cycleCount(1, language: .pl, fallbackNoun: plFallback) == "1 cykl", "pl cycle 1")
+        suite.expect(MetricFormat.cycleCount(2, language: .pl, fallbackNoun: plFallback) == "2 cykle", "pl cycle 2")
+        suite.expect(MetricFormat.cycleCount(4, language: .pl, fallbackNoun: plFallback) == "4 cykle", "pl cycle 4")
+        suite.expect(MetricFormat.cycleCount(5, language: .pl, fallbackNoun: plFallback) == "5 cykli", "pl cycle 5")
+        suite.expect(MetricFormat.cycleCount(11, language: .pl, fallbackNoun: plFallback) == "11 cykli", "pl cycle 11")
+        suite.expect(MetricFormat.cycleCount(12, language: .pl, fallbackNoun: plFallback) == "12 cykli", "pl cycle 12")
+        suite.expect(MetricFormat.cycleCount(14, language: .pl, fallbackNoun: plFallback) == "14 cykli", "pl cycle 14")
+        suite.expect(MetricFormat.cycleCount(21, language: .pl, fallbackNoun: plFallback) == "21 cykli", "pl cycle 21")
+        suite.expect(MetricFormat.cycleCount(22, language: .pl, fallbackNoun: plFallback) == "22 cykle", "pl cycle 22")
+        suite.expect(MetricFormat.cycleCount(25, language: .pl, fallbackNoun: plFallback) == "25 cykli", "pl cycle 25")
+        suite.expect(MetricFormat.cycleCount(101, language: .pl, fallbackNoun: plFallback) == "101 cykli", "pl cycle 101")
+        suite.expect(MetricFormat.cycleCount(102, language: .pl, fallbackNoun: plFallback) == "102 cykle", "pl cycle 102")
+        suite.expect(MetricFormat.cycleCount(112, language: .pl, fallbackNoun: plFallback) == "112 cykli", "pl cycle 112")
+        suite.expect(MetricFormat.cycleCount(122, language: .pl, fallbackNoun: plFallback) == "122 cykle", "pl cycle 122")
+        suite.expect(MetricFormat.cycleCount(1, language: .enUS, fallbackNoun: "Cycles") == "1 cycle", "en cycle 1")
+        suite.expect(MetricFormat.cycleCount(11, language: .enUS, fallbackNoun: "Cycles") == "11 cycles", "en cycle 11")
+
         MetricFormat.locale = originalLocale
     }
 }

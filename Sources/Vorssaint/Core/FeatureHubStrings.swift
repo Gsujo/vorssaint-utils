@@ -1088,7 +1088,7 @@ extension FeatureHubStrings {
         presetsTitle: "Zacznij od zestawu",
         presetsCaption: "Jedno kliknięcie konfiguruje aplikację tak, jak używasz swojego Maca. Wszystko inne pozostaje na wyciągnięcie ręki.",
         presetEssentialName: "Niezbędne",
-        presetEssentialDesc: "Mikser głośności, monitor systemu i blokada usypiania.",
+        presetEssentialDesc: "Mikser głośności, monitor systemu i zapobieganie usypianiu.",
         presetWindowsName: "Okna",
         presetWindowsDesc: "Przełącznik aplikacji, układ okien i funkcje Docka.",
         presetBatteryName: "Bateria i cisza",
@@ -1114,7 +1114,7 @@ extension FeatureHubStrings {
         notchUninstallWithExtensions: "Odinstaluj również rozszerzenia",
         notchUninstallKeepExtensions: "Zachowaj rozszerzenia",
         neverUsedTitle: "Nigdy nie włączone",
-        neverUsedMessageFormat: "Te funkcje są zainstalowane, ale nigdy nie były włączone: %@. Odinstalowanie ich skróci panel i Ustawienia systemowe. Nic nie jest usuwane, a każda wraca jednym kliknięciem.",
+        neverUsedMessageFormat: "Te funkcje są zainstalowane, ale nigdy nie były włączone: %@. Odinstalowanie ich skróci panel i Ustawienia. Nic nie jest usuwane, a każda wraca jednym kliknięciem.",
         neverUsedUninstall: "Odinstaluj te",
         neverUsedKeep: "Zachowaj je"
     )

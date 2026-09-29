@@ -496,7 +496,7 @@ extension NotchStrings {
         unpin: "Pozwól na automatyczne zamykanie",
         panel: "Otwórz panel aplikacji",
         dropHint: "Upuść pliki tutaj",
-        empty: "Wybierz, co pojawia się w Ustawieniach systemowych Dynamic Island.",
+        empty: "Wybierz, co pojawia się w Ustawieniach Dynamic Island.",
         volume: "Głośność",
         brightness: "Jasność",
         battery: "Bateria",

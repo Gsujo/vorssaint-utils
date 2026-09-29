@@ -1220,7 +1220,7 @@ extension CommandBarFeatureStrings {
         soundOutputCurrent: "Bieżące wyjście",
         volumeTitle: "Głośność",
         brightnessTitle: "Jasność ekranu",
-        keepAwakeForFormat: "Nie usypiaj przez %@",
+        keepAwakeForFormat: "Zapobieganie usypianiu: %@",
         needsSetupFormat: "Włącz funkcję „%@” w Ustawieniach",
         needsPermissionHint: "Wymaga uprawnień · Return pyta",
         actionCheckAppUpdates: "Sprawdź uaktualnienia aplikacji",

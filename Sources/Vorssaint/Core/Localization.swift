@@ -19,6 +19,32 @@ enum CountAgreement {
     /// 12 through 14) take the middle form; all others (including 21 and 112)
     /// take the last form.
     case polish
+
+    enum Form { case one, few, many }
+
+    func form(for count: Int) -> Form {
+        let magnitude = abs(count)
+        switch self {
+        case .oneAndMany:
+            return magnitude == 1 ? .one : .many
+        case .byWholeNumber:
+            if magnitude == 1 { return .one }
+            return (2...4).contains(magnitude) ? .few : .many
+        case .byLastDigits:
+            if (11...14).contains(magnitude % 100) { return .many }
+            switch magnitude % 10 {
+            case 1: return .one
+            case 2, 3, 4: return .few
+            default: return .many
+            }
+        case .polish:
+            if magnitude == 1 { return .one }
+            let mod100 = magnitude % 100
+            if (12...14).contains(mod100) { return .many }
+            let mod10 = magnitude % 10
+            return (2...4).contains(mod10) ? .few : .many
+        }
+    }
 }
 
 /// Languages the interface can use. The first launch defaults to the system
@@ -44,7 +70,7 @@ enum AppLanguage: String, CaseIterable, Identifiable {
     var id: String { rawValue }
 
     /// How this language agrees a counted noun with the number in front of
-    /// it. Three of the fifteen put a distinct form between one and many, and
+    /// it. Four of the sixteen put a distinct form between one and many, and
     /// they disagree on which numbers take it, so the count itself is not
     /// enough to pick a form without knowing the language's rule.
     var countAgreement: CountAgreement {
