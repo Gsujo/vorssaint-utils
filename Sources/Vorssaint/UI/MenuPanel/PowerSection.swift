@@ -193,7 +193,7 @@ struct PowerSection: View {
                 row(icon: "heart.fill", color: PanelMetricColor.pink(for: colorScheme),
                     label: l10n.s.powerHealth,
                     value: "\(Int(health.rounded()))%",
-                    caption: power.cycleCount.map { MetricFormat.cycleCount($0, language: l10n.language, fallbackNoun: l10n.s.powerCycles) },
+                    caption: power.cycleCount.map { "\($0) \(l10n.s.powerCycles)" },
                     visible: $pwrHealth, editing: editing)
             } else if editing && !pwrHealth {
                 PanelHiddenItemRow(title: l10n.s.powerHealth,
