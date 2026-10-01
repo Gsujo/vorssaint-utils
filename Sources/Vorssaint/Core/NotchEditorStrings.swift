@@ -358,7 +358,7 @@ extension FeatureStrings {
             removeButton: "Usuń przycisk",
             buttonName: "Nazwa",
             position: "Pozycja",
-            bottom: "Dół",
+            bottom: "Na dole",
             sectionActions: "Otwórz sekcję",
             quickActions: "Szybkie akcje",
             findAction: "Znajdź akcję",

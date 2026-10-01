@@ -108,7 +108,7 @@ extension RecentCaptureStrings {
         title: "Ostatnie zrzuty ekranu",
         empty: "Zrób zrzut ekranu lub zachowaj nagranie, aby znaleźć je tutaj.",
         screenshot: "Zrzut ekranu",
-        recording: "Nagrywanie ekranu",
+        recording: "Nagranie ekranu",
         restore: "Przywróć",
         open: "Otwórz",
         remove: "Usuń z historii",

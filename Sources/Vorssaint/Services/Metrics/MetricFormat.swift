@@ -364,39 +364,6 @@ enum MetricFormat {
         return "\(minutes)min"
     }
 
-    static func cycleCount(_ count: Int, language: AppLanguage, fallbackNoun: String) -> String {
-        switch language {
-        case .pl:
-            switch language.countAgreement.form(for: count) {
-            case .one: return "\(count) cykl"
-            case .few: return "\(count) cykle"
-            case .many: return "\(count) cykli"
-            }
-        case .sk:
-            switch language.countAgreement.form(for: count) {
-            case .one: return "\(count) cyklus"
-            case .few: return "\(count) cykly"
-            case .many: return "\(count) cyklov"
-            }
-        case .ru:
-            switch language.countAgreement.form(for: count) {
-            case .one: return "\(count) цикл"
-            case .few: return "\(count) цикла"
-            case .many: return "\(count) циклов"
-            }
-        case .uk:
-            switch language.countAgreement.form(for: count) {
-            case .one: return "\(count) цикл"
-            case .few: return "\(count) цикли"
-            case .many: return "\(count) циклів"
-            }
-        case .enUS:
-            return count == 1 ? "1 cycle" : "\(count) cycles"
-        default:
-            return "\(count) \(fallbackNoun)"
-        }
-    }
-
     // MARK: Network speed & filtering
 
     /// Per-second download/upload from two cumulative readings. Guards against a
